@@ -1,0 +1,44 @@
+h2{
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Bungee Hairline', cursive;
+}
+
+h3{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 1.5em;
+}
+
+h4{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 1.25em;
+}
+
+p.date{
+	font-style: italic;
+}
+
+body{
+	background-color: #E6E6FA
+}
+
+p{
+	font-family: 'Arimo', sans-serif;
+}
+
+ul{
+	font-family: 'Arimo', sans-serif;
+}
+
+a{
+	font-family: 'Arimo', sans-serif;
+	color: #ff5cbe;
+	text-decoration: none;
+}
+
+.primeso{
+	padding-left: 150px;
+}
+
+
+
