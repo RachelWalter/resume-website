@@ -36,8 +36,28 @@ a{
 	text-decoration: none;
 }
 
-.primeso{
-	padding-left: 150px;
+.topnav{
+	position: fixed; 
+	left: 0;
+	right: 0; 
+	top: 0; 
+	background-color: #494f5e; 
+	color: white; 
+	padding: 20px 15px; 
+	text-align: center; 
+	font-family: 'Arimo', sans-serif;
+}
+
+.navlink{
+	color: white; 
+	text-decoration: none;
+	padding-right: 40px;
+}
+
+.entry{
+	margin-left:auto;
+    margin-right:auto;
+    width: 80%;
 }
 
 

@@ -36,146 +36,169 @@ $(document).ready(function(){
 
 </head>
 <body>
+
 <!-- Navigation Bar -->
-<div class="topnav" id="myTopnav" style="position: fixed; left: 0; right: 0; top: 0; background-color: #494f5e; color: white; padding: 20px 15px; text-align: center; font-family: 'Arimo', sans-serif;">
+<div class="topnav" id="myTopnav">
   <a style="padding-right: 100px; color: #bcbcf2; font-size: 25px;"> Rachel Walter </a>
-  <a href="resume.html#Experience" style="color: white; text-decoration: none; padding-right: 40px;">Experience</a>
-  <a href="resume.html#Projects" style="color: white; text-decoration: none; padding-right: 40px;">Projects</a>
-  <a href="resume.html#Education" style="color: white; text-decoration: none; padding-right: 40px;">Education</a>
-  <a href="resume.html#Activities" style="color: white; text-decoration: none; padding-right: 40px;">Activities</a>
+  <a href="resume.html#Experience" class = "navlink">Experience</a>
+  <a href="resume.html#Projects" class="navlink" ">Projects</a>
+  <a href="resume.html#Education" class="navlink" ">Education</a>
+  <a href="resume.html#Activities" class="navlink">Activities</a>
   <a href="resume.html#Contact" style="color: white; text-decoration: none;">Contact</a>
 </div>
-<div id='Experience'><a name='Experience'></a></div>
-<h1> Rachel Elizabeth Walter</h1>
 
-<!-- Put Contact Me here -->
+<div id='Experience'><a name='Experience'></a></div>
+<h1> Filler</h1>
 
 <!-- Work Experience -->
 <h2> --- Experience ---</h2> 
+
 <!-- BAH -->
-<a href="https://www.boozallen.com/"><img src="http://www.sossecinc.com/images/logostemp/booz.png" style="float: left; height: 105px;width: 150px; padding-left: 250px;"></a>
-<h3> Future Booz Allen Hamilton Cyber Intern</h3>
-<p class = "date"> Summer 2017 // Annapolis Junction, MD</p>
-<p style="padding-bottom: 30px"> Coming Soon! </p>
+<div class="entry">
+	<a href="https://www.boozallen.com/"><img src="http://www.sossecinc.com/images/logostemp/booz.png" style="float: left; height: 105px;width: 150px;"></a>
+	<h3> Future Booz Allen Hamilton Cyber Intern</h3>
+	<p class = "date"> Summer 2017 // Annapolis Junction, MD</p>
+	<p style="padding-bottom: 30px"> Coming Soon! </p>
+</div>
+
 <!-- PrimeSo -->
-<iframe width="400" height="225" src="https://www.youtube.com/embed/xgyeHT-ahBo" frameborder="0" allowfullscreen style="float: right; padding-right: 200px;"></iframe>
-<h3 class="primeso"> <a  style = "text-decoration: none; font-family: 'Cuprum', sans-serif; font-size: 1em; color: black;" href="https://www.primeso.com/interns">Prime Solutions STEM Fellows Program </a> </h3>
-<p class = "primeso" style="font-style: italic;"> Summer 2016 // Columbia, MD</p>
-<ul class="primeso">
-	<li>Collaborated as a three person team to hack an AR Parrot Drone by mimicking the command and control link to make the drone take off, hover, and land  </li>
-	<li> Familiarized with Linux OS and terminal command line</li>
-	<li>Investigated basics of UDP and 802.11</li>
-	<li> Utilized beginner socket layer programming</li>
-	<div id='Projects'><a name='Projects'></a></div>
-</ul>
-<p class="primeso"> <strong> Relevant Skills: </strong> C Programming, Wireshark, Linux (Ubuntu) </p>
+<div class="entry">
+	<iframe width="400" height="225" src="https://www.youtube.com/embed/xgyeHT-ahBo" frameborder="0" allowfullscreen style="float: right;"></iframe>
+	<h3> <a  style = "text-decoration: none; font-family: 'Cuprum', sans-serif; font-size: 1em; color: black;" href="https://www.primeso.com/interns">Prime Solutions STEM Fellows Program </a> </h3>
+	<p style="font-style: italic;"> Summer 2016 // Columbia, MD</p>
+	<ul>
+		<li>Collaborated as a three person team to hack an AR Parrot Drone by mimicking the command and control link to make the drone take off, hover, and land  </li>
+		<li> Familiarized with Linux OS and terminal command line</li>
+		<li>Investigated basics of UDP and 802.11</li>
+		<li> Utilized beginner socket layer programming</li>
+		<div id='Projects'><a name='Projects'></a></div>
+	</ul>
+	<p> <strong> Relevant Skills: </strong> C Programming, Wireshark, Linux (Ubuntu) </p>
+</div>
 
 <!-- Projects Section -->
-<div style="background-color: white;">
+<div  id= "project" style="background-color: white;">
+
 <h2> --- Projects --- </h2>
+
 <!-- Honeypot -->
-<a href="http://www.aces.umd.edu/"><img src="https://pbs.twimg.com/profile_images/2694948319/c693d167c4cbeacd75cfe406d906b83d.png" style="float: left; height: 200px; width: 200px; padding-left: 200px;"></a>
-<h3> HACS102 Honeypot Project</h3>
-<p class = "date"> February - May 2017 // HACS102 Course</p>
-<ul>
-	<li> Performed research of high-interaction honeypots in a group of 5 ACES Students</li>
-	<li> Investigated the correlation between a country's ICT Development Index ranking and a hacker's skill level</li>
-	<li> Implemented bash scripts to automate recycling honeypots, backing up logs, and processing data</li>
-	<li> Tracked hacker behavior through HonSSH monitoring </li>
-	<li> Followed the research process and performed statistical analysis of data</li>
-</ul>
-<p style="padding-bottom: 50px"> <strong> Relevant Skills: </strong> UNIX Command Line, Bash Scripting, Research Process </p>
+	<div id = "honeypots" class="entry">
+		<a href="http://www.aces.umd.edu/"><img src="https://pbs.twimg.com/profile_images/2694948319/c693d167c4cbeacd75cfe406d906b83d.png" style="float: left; height: 200px; width: 200px;"></a>
+		<h3> HACS102 Honeypot Project</h3>
+		<p class = "date"> February - May 2017 // HACS102 Course</p>
+		<ul>
+			<li> Performed research of high-interaction honeypots in a group of 5 ACES Students</li>
+			<li> Investigated the correlation between a country's ICT Development Index ranking and a hacker's skill level</li>
+			<li> Implemented bash scripts to automate recycling honeypots, backing up logs, and processing data</li>
+			<li> Tracked hacker behavior through HonSSH monitoring </li>
+			<li> Followed the research process and performed statistical analysis of data</li>
+		</ul>
+		<p style="padding-bottom: 50px"> <strong> Relevant Skills: </strong> UNIX Command Line, Bash Scripting, Research Process </p>
+	</div>
+
 <!-- Technica Tunes -->
-<a href="http://gotechnica.org/"><img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/315/691/datas/original.png" style="float: right;height: 210px; width: 210px; padding-right: 180px"></a>
-<div style="padding-left: 200px">
-<h3>Technica Tunes </h3>
-<p class = "date"> November 5, 2016 // Technica 2016 </p>
-<a href="http://technicatunes.com/"> Check out the website here! </a>
-<p></p>
-<a href="https://github.com/rewalter16/technica-tunes"> Access the GitHub Repository Here! </a>
-<ul>
-	<li> Designed and created a Jukebox program in a group of 5, all at our first ever hackathon </li>
-	<li> Implemented JukeBox GUI to take user input for songs, save song lists, and play music via YouTube </li>
-	<li> Designed website where users can download the .jar file and find out more about the project and team</li>
-	<div id='Education'><a name='Education'></a></div>
-</ul>
-<p style="padding-bottom: 15px"> <strong> Relevant Skills: </strong> Java (JavaFX package), HTML/CSS</p>
-</div>
+	<div id = "techina" class="entry">
+		<a href="http://gotechnica.org/"><img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/315/691/datas/original.png" style="float: right;height: 210px; width: 210px;"></a>
+		<h3>Technica Tunes </h3>
+		<p class = "date"> November 5, 2016 // Technica 2016 </p>
+		<a href="http://technicatunes.com/"> Check out the website here! </a>
+		<p></p>
+		<a href="https://github.com/rewalter16/technica-tunes"> Access the GitHub Repository Here! </a>
+		<ul>
+			<li> Designed and created a Jukebox program in a group of 5, all at our first ever hackathon </li>
+			<li> Implemented JukeBox GUI to take user input for songs, save song lists, and play music via YouTube </li>
+			<li> Designed website where users can download the .jar file and find out more about the project and team</li>
+		<div id='Education'><a name='Education'></a></div>
+		</ul>
+		<p style="padding-bottom: 15px"> <strong> Relevant Skills: </strong> Java (JavaFX package), HTML/CSS</p>
+	</div>
 </div>
 
 <!-- Education -->
 <h2 style ="padding-top: 5px;"> --- Education --- </h2>
 <!-- UMD -->
-<a href="https://www.umd.edu/"><img src="http://thestamp.umd.edu/portals/0/Images/Shops%20and%20Services/terapinLogo.png" style="float: left; height: 180px;width: 180px; padding-left: 200px; padding-right: 15px;"></a>
-<h3> University of Maryland, College Park</h3>
-<p class = "date"> May 2020 // GPA: 3.675 </p>
-<p> Bachelor of Science in Computer Science</p>
-<p> Advanced Cybersecurity Experience for Students (ACES) Honors College</p>
-<p style="padding-bottom: 15px"> <strong> Relevant Coursework: </strong> Java, C Programming, Discrete Math</p>
+<div id = "umd" class="entry">
+	<a href="https://www.umd.edu/"><img src="http://thestamp.umd.edu/portals/0/Images/Shops%20and%20Services/terapinLogo.png" style="float: left; height: 180px;width: 180px; padding-right: 15px;"></a>
+	<h3> University of Maryland, College Park</h3>
+	<p class = "date"> May 2020 // GPA: 3.675 </p>
+	<p> Bachelor of Science in Computer Science</p>
+	<p> Advanced Cybersecurity Experience for Students (ACES) Honors College</p>
+	<p style="padding-bottom: 15px"> <strong> Relevant Coursework: </strong> Java, C Programming, Discrete Math</p>
+</div>
+
 <!-- HHS -->
-<a href="http://hohs.hcpss.org/"><img src="http://hohs.hcpss.org/sites/default/files/howardhs.png" style="float: right; height: 180px;width: 200px; padding-right: 200px;"></a>
-<div style="padding-left: 200px">
-<h3> Howard High School </h3>
-<p class = "date"> May 2016 // GPA: 3.96</p>
-<ul>
-	<li> Ranked 7 of 435 students (Top 5%) </li>
-	<li> College Board AP Scholar with Honors </li>
-	<li> Member of National Honor Society, National Technical Honor Society, and National French Honor Society</li>
-	<li> Clubs: Theatre Department, It's Academic Trivia Team, Girl Scouts of America</li>
+<div id = "howard" class="entry">
+	<a href="http://hohs.hcpss.org/"><img src="http://hohs.hcpss.org/sites/default/files/howardhs.png" style="float: right; height: 180px;width: 200px;"></a>
+	<h3> Howard High School </h3>
+	<p class = "date"> May 2016 // GPA: 3.96</p>
+	<ul>
+		<li> Ranked 7 of 435 students (Top 5%) </li>
+		<li> College Board AP Scholar with Honors </li>
+		<li> Member of National Honor Society, National Technical Honor Society, and National French Honor Society</li>
+		<li> Clubs: Theatre Department, It's Academic Trivia Team, Girl Scouts of America</li>
 	<div id='Activities'><a name='Activities'></a></div>
-</ul>
-<p> <strong> Relevant Coursework: </strong> AP Computer Science, AP Calculus AB</p>
+	</ul>
+	<p> <strong> Relevant Coursework: </strong> AP Computer Science, AP Calculus AB</p>
 </div>
 
 <!-- Activities -->
-<div style=" background-color: white;">
-<h2> --- Activities --- </h2>
-<!-- ACES Board -->
-<a href="http://www.aces.umd.edu/board"><img src="https://pbs.twimg.com/profile_images/2694948319/c693d167c4cbeacd75cfe406d906b83d.png" style="float: left; height: 200px; width: 200px; padding-left: 200px;"></a>
-<h3> ACES Student Board</h3>
-<p class = "date"> October 2016 - Present // Social Coordinator </p>
-<ul>
-	<li> Collaborate on a board of 9 ACES students to address issues within the Honors College Program</li>
-	<li> Plan events to provide social, professional, and educational experiences for students </li>
-	<li> Work alongside program leadership to represent the voice of students </li>
-</ul>
-<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Organization, Leadership, Communication</p>
+<div id = "act" style=" background-color: white;">
+	<h2> --- Activities --- </h2>
+	<!-- ACES Board -->
+	<div id = "board" class="entry">
+		<a href="http://www.aces.umd.edu/board"><img src="https://pbs.twimg.com/profile_images/2694948319/c693d167c4cbeacd75cfe406d906b83d.png" style="float: left; height: 200px; width: 200px;"></a>
+		<h3> ACES Student Board</h3>
+		<p class = "date"> October 2016 - Present // Social Coordinator </p>
+		<ul>
+			<li> Collaborate on a board of 9 ACES students to address issues within the Honors College Program</li>
+			<li> Plan events to provide social, professional, and educational experiences for students </li>
+			<li> Work alongside program leadership to represent the voice of students </li>
+		</ul>
+	<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Organization, Leadership, Communication</p>
+	</div>
+
 <!-- Volunteering -->
-<a href="http://cyber.umd.edu/education/saturday-workshop-6-8"><img src="https://realworldcrypto.files.wordpress.com/2013/06/mc2-logo-jpeg.jpg" style="float: right; height: 200px; width: 400px; padding-right: 100px"></a>
-<div style="padding-left: 150px">
-<h3> Maryland Cybersecurity Center Workshop for Girls</h3>
-<p class = "date"> September 2016- November 2016 // Group Leader</p>
-<ul>
-	<li>Engaged groups of 16 middle school girls in interactive lessons about cybersecurity </li>
-	<li> Led group discussions on privacy risks on social media and how to change privacy settings </li>
-	<li> Introduced girls to cryptography by encrypting and decrypting messages using Caesar Ciphers </li>
-</ul>
-<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Engaging Girls in STEM, Education, Basic Cybersecurity</p>
-</div>
+	<div id = "mc2" class="entry">
+		<a href="http://cyber.umd.edu/education/saturday-workshop-6-8"><img src="https://realworldcrypto.files.wordpress.com/2013/06/mc2-logo-jpeg.jpg" style="float: right; height: 200px; width: 400px; padding-right: 100px"></a>
+		<h3> Maryland Cybersecurity Center Workshop for Girls</h3>
+		<p class = "date"> September 2016- November 2016 // Group Leader</p>
+		<ul>
+			<li>Engaged groups of 16 middle school girls in interactive lessons about cybersecurity </li>
+			<li> Led group discussions on privacy risks on social media and how to change privacy settings </li>
+			<li> Introduced girls to cryptography by encrypting and decrypting messages using Caesar Ciphers </li>
+		</ul>
+		<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Engaging Girls in STEM, Education, Basic Cybersecurity</p>
+	</div>
 <!-- ACES Comp Team --> 
-<a href="http://www.aces.umd.edu/competition-team"><img src="https://origin.ih.constantcontact.com/fs086/1103429963439/img/38.png" style="float: left; height: 190px; width: 190px; padding-left: 300px; padding-right: 30px;"></a>
-<h3> ACES Cybersecurity Competition Team</h3>
-<p class = "date"> September 2016 - December 2016 </p>
-<ul>
-	<li> Introduced to the basics of networking </li>
-	<li> Apply hand-on cybersecurity offensive and defensive skills</li>
-	<li> Competed in National Cyber League 2016 Fall Season </li>
-	<li> Problem solved through a Capture the Flag event hosted by Parson's Corporation</li>
-</ul>
-<div id='Contact'><a name='Contact'></a></div>
-<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Linux (Kali), Wireshark, VMWare</p>
+	<div id = "comp" class="entry">
+		<a href="http://www.aces.umd.edu/competition-team"><img src="https://origin.ih.constantcontact.com/fs086/1103429963439/img/38.png" style="float: left; height: 190px; width: 190px; padding-right: 30px;"></a>
+		<h3> ACES Cybersecurity Competition Team</h3>
+		<p class = "date"> September 2016 - December 2016 </p>
+		<ul>
+			<li> Introduced to the basics of networking </li>
+			<li> Apply hand-on cybersecurity offensive and defensive skills</li>
+			<li> Competed in National Cyber League 2016 Fall Season </li>
+			<li> Problem solved through a Capture the Flag event hosted by Parson's Corporation</li>
+		</ul>
+		<div id='Contact'><a name='Contact'></a></div>
+		<p style="padding-bottom: 15px;"> <strong> Relevant Skills: </strong> Linux (Kali), Wireshark, VMWare</p>
+	</div>
 </div>
 
 <!-- Contact Me -->
-<div style="background-color: #bcbcf2">
+<div id = "contact" style="background-color: #bcbcf2">
 	<h2 style= "padding-top: 30px;"> --- Contact --- </h2>
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/rachelewalter"><img src="http://www.iconsdb.com/icons/download/gray/linkedin-3-512.png" height="100" width="100" style="padding-left: 530px; padding-right: 100px;"></a>
-         <!-- Resume -->
-         <a href="https://drive.google.com/file/d/0ByQgXLFg6hHHSjIzMnRwZzFmNWM/view?usp=sharing"><img src="http://www.iconsdb.com/icons/preview/gray/document-xxl.png" height="100" width="100">
-         <p style=" font-size: 30px; color: #494f5e; text-align: center;"> rewalter16@gmail.com </p>
-         <p style="color: #494f5e; text-align: center; "> <a style="color: #494f5e" href="http://bitca.mp/">Made at Bitcamp 2017</a></p>
-         <p style="padding-bottom: 50px"></p></a>
+	    <div id = "images" class="entry">
+	    	<p style="text-align: center;">
+			<!-- LinkedIn -->
+			<a href="https://www.linkedin.com/in/rachelewalter"><img src="http://www.iconsdb.com/icons/download/gray/linkedin-3-512.png" height="100" width="100" style=" padding-right: 100px;"></a>
+			<!-- Resume -->
+			<a href="https://drive.google.com/file/d/0ByQgXLFg6hHHSjIzMnRwZzFmNWM/view?usp=sharing"><img src="http://www.iconsdb.com/icons/preview/gray/document-xxl.png" height="100" width="100"></a>
+			</p>
+		</div>
+	<p style=" font-size: 30px; color: #494f5e; text-align: center;"> rewalter16@gmail.com </p>
+	<p style="color: #494f5e; text-align: center; "> <a style="color: #494f5e" href="http://bitca.mp/">Made at Bitcamp 2017</a></p>
+ 	<p style="padding-bottom: 50px"></p></a>
 </div>
 
 </body>
